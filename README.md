@@ -9,3 +9,12 @@
 - To shadow a variable you have to re-declare it, means you use `let` keyword. 
 - N.B: when we use `mut` we are re-assigning a value to our variables, but when we shadow (use `let`) we are re-creating the variable. 
 - Another difference between shadowing and assigning, with shadowing we can change the type of variable. 
+
+## Data Types
+- Every language has data type, so is Rust. And Rust is statically typed, so it must know the type of all variables at compile time. 
+- Usually the compiler can infer what type you want based on the value and how you use it. 
+- In data types they are: 
+    -[x] Scalar type: which represent a single value: integer, float-point numbers, booleans, and characters (defined like `let: char = 'z'`). 
+    -[x] Compound types: a group of multiple values into one type. And Rust has two compound types: tuples and arrays. 
+        - A tuple a group of value with variety of types into one. It has a fixed length once declared: means it can't grow or shrink in size. Refer to `main.rs:57`
+        - The array: unlike a tuple, every element of the array must have the same type. 
